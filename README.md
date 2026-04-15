@@ -16,11 +16,11 @@
 ```bash
 # Базовый
 # Без региональных и других доменов (yandex.KZ, vk.IO, tinkoff.UA), с "domain:"
-wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/main/russian-anti-vpn-domains-no-subdomains.txt
+wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-domain.txt
 
-# Расширенный
+# Расширенный (рекомендуется)
 # С региональными доменами, с "domain:"
-wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/main/russian-anti-vpn-domains-extended.txt
+wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-extended-domain.txt
 ```
 
 ### ⚙️ Пример использования
