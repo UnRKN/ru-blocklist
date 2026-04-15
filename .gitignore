@@ -1,0 +1,8 @@
+.DS_Store
+*.swp
+*.swo
+etc/
+without domain/
+domains-*.txt
+xray-config-example.json
+xray-routing-simple.json
