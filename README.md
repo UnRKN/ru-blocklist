@@ -1,4 +1,4 @@
-# 🚫 Русский Anti-VPN Blocklist
+# 🚫 Список РУ-доменов для блокировки в VPN
 
 <div align="center">
 
@@ -9,10 +9,6 @@
 > Актуальный список доменов российских сервисов, сливающих информацию об использовании VPN
 > 
 > ⚠️ **Дисклеймер:** Проект создан в информационных целях. Используйте ответственно и согласно законодательству.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202026-blue)](https://github.com/UnRKN/ru-blocklist)
-[![Domains Count](https://img.shields.io/badge/Domains-460%2B-brightgreen)](https://github.com/UnRKN/ru-blocklist)
 
 ## 🚀 Быстрый старт
 
