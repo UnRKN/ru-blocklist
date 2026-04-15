@@ -106,3 +106,6 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/main/russian-anti-vpn-
 | 7 | **Yandex** | 59 | `yandex.aero`, `yandex.az`, `yandex.bg`, `yandex.by`, `yandex.ca`, `yandex.cloud`, `yandex.co.il`, `yandex.co.th`, `yandex.co.uk`, `yandex.com`, `yandex.com.am`, `yandex.com.br`, `yandex.com.ge`, `yandex.com.ru`, `yandex.com.tr`, `yandex.cz`, `yandex.de`, `yandex.ee`, `yandex.es`, `yandex.eu`, `yandex.fi`, `yandex.fr`, `yandex.gr`, `yandex.hr`, `yandex.hu`, `yandex.id`, `yandex.in`, `yandex.io`, `yandex.it`, `yandex.jobs`, `yandex.kg`, `yandex.kz`, `yandex.lt`, `yandex.lv`, `yandex.md`, `yandex.net`, `yandex.org`, `yandex.pl`, `yandex.pt`, `yandex.ro`, `yandex.rs`, `yandex.ru`, `yandex.se`, `yandex.sk`, `yandex.st`, `yandex.sx`, `yandex.tj`, `yandex.tm`, `yandex.tr`, `yandex.ua`, `yandex.uz`, `yandex.vn`, `yandexadexchange.net`, `yandexcloud.net`, `yandexcom.net`, `yandexdisk.com`, `yandexmetrica.com`, `yandexwebcache.net`, `yandexwebcache.org` |
 
 </details>
+
+<div align = center>
+created by UnRKN, Grok & Claude with ❤️
