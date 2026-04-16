@@ -68,84 +68,33 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blo
 
 Файл хранится в каталоге ресурсов XRay, обычно `/etc/xray/` на Linux или `C:\Program Files\xray\` на Windows.
 
-#### Вариант 2: Использование текстовых списков (старый способ)
-
-Если ваша версия XRay поддерживает загрузку из текстовых файлов:
-
-```json
-{
-  "routing": {
-    "rules": [
-      {
-        "type": "field",
-        "domain": ["ext:file:///etc/xray/ru-blocklist-extended-domain.txt"],
-        "outboundTag": "block"
-      }
-    ]
-  }
-}
-```
-
 ## 📁 Какие есть файлы?
 
-### 🔄 Форматы файлов
+### 🔄 Формат файлов
 
-Файлы доступны в двух форматах:
-
-1. **geosite.dat** — бинарный формат Protocol Buffer (рекомендуется)
-   - Компактный размер
-   - Быстрая загрузка
-   - Используется в XRay/V2Ray напрямую
-   - Формат: `ext:file://path/to/file.dat:TAG`
-
-2. **Текстовые файлы** — простой текстовый формат
-   - Легко редактировать
-   - Легко проверять содержимое
-   - Может быть медленнее при загрузке
+**geosite.dat** — бинарный формат Protocol Buffer
+- Компактный размер (5-8 KB)
+- Быстрая загрузка
+- Используется в XRay/V2Ray напрямую
+- Формат в конфиге: `ext:file://path/to/file.dat:TAG`
 
 ### 📋 Список файлов
 
-#### Вариант 1: Основной список (без региональных доменов)
+#### Основной список (без региональных доменов)
 
-| Файл | Формат | Размер | Описание |
-|------|--------|--------|----------|
-| **ru-blocklist-domain.dat** | geosite.dat | 5.8 KB | БЕЗ региональных, формат geosite (рекомендуется) |
-| **ru-blocklist.dat** | geosite.dat | 5.8 KB | БЕЗ региональных, формат geosite |
-| **ru-blocklist-domain.txt** | `domain:example.com` | 340 доменов | БЕЗ региональных доменов, с "domain:" перед каждым |
-| **ru-blocklist.txt** | `example.com` | 340 доменов | БЕЗ региональных доменов и без "domain:" |
+| Файл | Размер | Доменов |
+|------|--------|--------|
+| **ru-blocklist-domain.dat** | 5.8 KB | 340 |
+| **ru-blocklist.dat** | 5.8 KB | 340 |
 
-#### Вариант 2: Расширенный список (с региональными доменами)
+#### Расширенный список (с региональными доменами)
 
-| Файл | Формат | Размер | Описание |
-|------|--------|--------|----------|
-| **ru-blocklist-extended-domain.dat** | geosite.dat | 7.8 KB | С региональными, формат geosite (рекомендуется) |
-| **ru-blocklist-ext.dat** | geosite.dat | 7.8 KB | С региональными, формат geosite |
-| **ru-blocklist-extended-domain.txt** | `domain:example.com` | 460 доменов | С региональными доменами, с "domain:" перед каждым |
-| **ru-blocklist-ext.txt** | `example.com` | 460 доменов | С региональными доменами и без "domain:" |
+| Файл | Размер | Доменов |
+|------|--------|--------|
+| **ru-blocklist-extended-domain.dat** | 7.8 KB | 460 |
+| **ru-blocklist-ext.dat** | 7.8 KB | 460 |
 
----
 
-**Файлы содержит один домен на строку в следующих форматах:**
-
-```text
-domain:example.com
-```
-или
-```text
-example.com
-```
-
----
-
-#### Скачивание raw-ссылкой:
-
-```bash
-# Без поддоменов
-wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/main/russian-anti-vpn-domains-no-subdomains.txt
-
-# Расширенный список
-wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/main/russian-anti-vpn-domains-extended.txt
-```
 
 ## 📊 Статистика по компаниям
 
@@ -169,23 +118,20 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/main/russian-anti-vpn-
 
 ## 🔧 Регенерация файлов geosite.dat
 
-Если вам нужно обновить файлы `.dat` после изменения списка доменов, используйте скрипт `geosite_generator.py`:
+Если вам нужно обновить файлы `.dat`, используйте скрипт `geosite_generator.py`:
 
 ```bash
 python3 geosite_generator.py
 ```
 
-Скрипт автоматически сконвертирует все текстовые списки (`.txt`) в формат geosite.dat (`.dat`).
-
 **Требования:**
 - Python 3.6+
-- Никаких внешних зависимостей (встроенные модули только)
+- Никаких внешних зависимостей
 
-**Как это работает:**
-1. Читает домены из текстовых файлов (`ru-blocklist-*.txt`)
-2. Конвертирует их в формат Protocol Buffer (protobuf)
-3. Создает бинарные файлы (`.dat`) в том же каталоге
-4. Эти файлы готовы к использованию с XRay/V2Ray
+**Что делает скрипт:**
+- Кодирует домены в формат Protocol Buffer (protobuf)
+- Создает бинарные файлы (`.dat`) готовые к использованию с XRay/V2Ray
+- Использует тег `RU` для всех доменов
 
 **Форматы доменов в `.dat` файлах:**
 - Тип `3` = `domain` (стандартный, совпадает с доменом и всеми поддоменами)
