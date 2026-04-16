@@ -14,19 +14,47 @@
 ## 🚀 Быстрый старт
 
 ### Скачивание файлов
-```bash
-# Базовый
-# Без региональных и других доменов (yandex.KZ, vk.IO, tinkoff.UA), с "domain:"
-wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-domain.txt
 
-# Расширенный (рекомендуется)
-# С региональными доменами, с "domain:"
-wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-extended-domain.txt
+#### Рекомендуемый способ: Использование .dat файлов
+
+```bash
+# Базовый (без региональных доменов)
+wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-domain.dat
+
+# Расширенный (с региональными доменами)
+wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-extended-domain.dat
 ```
 
 ### ⚙️ Пример использования
 
-Используйте формат `ext:file://` (`ext:путь-к-файлу`) для загрузки списков:
+#### Вариант 1: Использование geosite.dat (рекомендуется)
+
+Используйте формат `ext:file://` с файлами `.dat` в формате geosite:
+
+```json
+{
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "domain": ["ext:file:///etc/xray/ru-blocklist-extended-domain.dat:RU"],
+        "outboundTag": "block"
+      }
+    ]
+  }
+}
+```
+
+**Формат:** `ext:файл:тег`
+- `ext:` — префикс (всегда в нижнем регистре)
+- `файл` — путь к .dat файлу в директории ресурсов
+- `тег` — название тега в файле (например, `RU`)
+
+Файл хранится в каталоге ресурсов XRay, обычно `/etc/xray/` на Linux или `C:\Program Files\xray\` на Windows.
+
+#### Вариант 2: Использование текстовых списков (старый способ)
+
+Если ваша версия XRay поддерживает загрузку из текстовых файлов:
 
 ```json
 {
@@ -44,7 +72,44 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blo
 
 ## 📁 Какие есть файлы?
 
-Файлы содержит один домен на строку в следующем формате:
+### 🔄 Форматы файлов
+
+Файлы доступны в двух форматах:
+
+1. **geosite.dat** — бинарный формат Protocol Buffer (рекомендуется)
+   - Компактный размер
+   - Быстрая загрузка
+   - Используется в XRay/V2Ray напрямую
+   - Формат: `ext:file://path/to/file.dat:TAG`
+
+2. **Текстовые файлы** — простой текстовый формат
+   - Легко редактировать
+   - Легко проверять содержимое
+   - Может быть медленнее при загрузке
+
+### 📋 Список файлов
+
+#### Вариант 1: Основной список (без региональных доменов)
+
+| Файл | Формат | Размер | Описание |
+|------|--------|--------|----------|
+| **ru-blocklist-domain.dat** | geosite.dat | 5.8 KB | БЕЗ региональных, формат geosite (рекомендуется) |
+| **ru-blocklist.dat** | geosite.dat | 5.8 KB | БЕЗ региональных, формат geosite |
+| **ru-blocklist-domain.txt** | `domain:example.com` | 340 доменов | БЕЗ региональных доменов, с "domain:" перед каждым |
+| **ru-blocklist.txt** | `example.com` | 340 доменов | БЕЗ региональных доменов и без "domain:" |
+
+#### Вариант 2: Расширенный список (с региональными доменами)
+
+| Файл | Формат | Размер | Описание |
+|------|--------|--------|----------|
+| **ru-blocklist-extended-domain.dat** | geosite.dat | 7.8 KB | С региональными, формат geosite (рекомендуется) |
+| **ru-blocklist-ext.dat** | geosite.dat | 7.8 KB | С региональными, формат geosite |
+| **ru-blocklist-extended-domain.txt** | `domain:example.com` | 460 доменов | С региональными доменами, с "domain:" перед каждым |
+| **ru-blocklist-ext.txt** | `example.com` | 460 доменов | С региональными доменами и без "domain:" |
+
+---
+
+**Файлы содержит один домен на строку в следующих форматах:**
 
 ```text
 domain:example.com
@@ -53,13 +118,6 @@ domain:example.com
 ```text
 example.com
 ```
-
-| Файл | Формат | Размер | Описание |
-|------|--------|--------|----------|
-| **ru-blocklist-domain.txt** | `domain:example.com` | 340 доменов | БЕЗ региональных доменов, с "domain:" перед каждым |
-| **ru-blocklist-extended-domain.txt** | `domain:example.com` | 460 доменов | С региональными доменами, с "domain:" перед каждым |
-| **ru-blocklist.txt** | `example.com` | 340 доменов | БЕЗ региональных доменов и без "domain:"
-| **ru-blocklist-ext.txt** | `example.com` | 460 доменов | С региональными доменами и без "domain:"
 
 ---
 
@@ -92,6 +150,30 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/main/russian-anti-vpn-
 - 📌 **7 крупных компаний** в основной таблице
 - 📦 **460+ доменов** в расширенном списке
 - 🌍 Включены региональные домены (.ru, .com, .kz, .by, .ua и т.д.)
+
+## 🔧 Регенерация файлов geosite.dat
+
+Если вам нужно обновить файлы `.dat` после изменения списка доменов, используйте скрипт `geosite_generator.py`:
+
+```bash
+python3 geosite_generator.py
+```
+
+Скрипт автоматически сконвертирует все текстовые списки (`.txt`) в формат geosite.dat (`.dat`).
+
+**Требования:**
+- Python 3.6+
+- Никаких внешних зависимостей (встроенные модули только)
+
+**Как это работает:**
+1. Читает домены из текстовых файлов (`ru-blocklist-*.txt`)
+2. Конвертирует их в формат Protocol Buffer (protobuf)
+3. Создает бинарные файлы (`.dat`) в том же каталоге
+4. Эти файлы готовы к использованию с XRay/V2Ray
+
+**Форматы доменов в `.dat` файлах:**
+- Тип `3` = `domain` (стандартный, совпадает с доменом и всеми поддоменами)
+- Тег: `RU` (для идентификации набора доменов)
 
 <details>
 <summary><b>🔍 Полный список доменов по компаниям (нажмите, чтобы развернуть)</b></summary>
