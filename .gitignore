@@ -1,19 +1,16 @@
-.DS_Store
-*.swp
-*.swo
-*.txt
-__pycache__/
+ignore/
+
+# Domain validation output
+ignore/invalid-domains.txt
+ignore/validation-report.json
+
+# Binary geosite files (.dat files are generated from .txt sources)
+*.dat
+
+# Logs
+*.log
+
+# Cache files
 *.pyc
-*.pyo
-*.py[cod]
-*.egg-info/
-*.py
-*.proto
-# Directories
-etc/
-without domain/
-old/
-README.md
-xray-config-example.json
-xray-routing-simple.json
-PROJECT-STRUCTURE.txt
+__pycache__/
+.pytest_cache/
