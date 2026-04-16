@@ -27,7 +27,7 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blo
 
 ### ⚙️ Пример использования
 
-#### Вариант 1: Использование geosite.dat (рекомендуется)
+#### Пример 1:
 
 Используйте формат `ext:file://` с файлами `.dat` в формате geosite:
 
@@ -43,6 +43,22 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blo
     ]
   }
 }
+```
+
+#### Пример 2 (файл был скопирован прямо в /root/)
+
+```json
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "domain": [
+          "ext:ru-blocklist-extended-domain.dat:RU"
+        ],
+        "outboundTag": "BLOCK"
+      }
+    ]
+  }
 ```
 
 **Формат:** `ext:файл:тег`
