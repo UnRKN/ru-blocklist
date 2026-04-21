@@ -145,7 +145,6 @@ domain:mts.it
 domain:mts.kz
 domain:mts.md
 domain:mts.news
-domain:mts.online
 domain:mts.org
 domain:mts.plus
 domain:mts.pro
@@ -161,7 +160,6 @@ domain:mts.video
 domain:mts.web
 domain:mts.work
 domain:mtsbank.ru
-domain:mtsru.net
 domain:mtstelecom.ru
 domain:mvd.ru
 domain:mvk.com
@@ -186,12 +184,10 @@ domain:onetarget.ru
 domain:otclick-adv.ru
 domain:otkritie.ru
 domain:oz.by
-domain:ozon-api.com
 domain:ozon.ae
 domain:ozon.am
 domain:ozon.az
 domain:ozon.by
-domain:ozon.cloud
 domain:ozon.com
 domain:ozon.de
 domain:ozon.dev
@@ -202,8 +198,6 @@ domain:ozon.kg
 domain:ozon.kz
 domain:ozon.md
 domain:ozon.ru
-domain:ozon.shop
-domain:ozon.store
 domain:ozon.su
 domain:ozon.tech
 domain:ozon.uz
@@ -218,7 +212,6 @@ domain:ozonfinance.ru
 domain:ozonfintech.ru
 domain:ozonglobalevents.com
 domain:ozonlogistics.ru
-domain:ozonmart.ru
 domain:ozonmedina.ru
 domain:ozonru.co.il
 domain:ozonru.com
@@ -226,7 +219,6 @@ domain:ozonru.eu
 domain:ozonshop.ru
 domain:ozonsport.ru
 domain:ozonstatus.ru
-domain:ozontech.io
 domain:perekrestok.ru
 domain:pochta-bank.ru
 domain:pochta.ru
@@ -263,7 +255,6 @@ domain:samokat.ru
 domain:samokat.tech
 domain:sbbol.ru
 domain:sber.ai
-domain:sber.auto
 domain:sber.ch
 domain:sber.f
 domain:sber.group
@@ -322,7 +313,6 @@ domain:tass.ru
 domain:tbank.by
 domain:tbank.kz
 domain:tbank.ru
-domain:tbank.ua
 domain:tbankcloud.ru
 domain:tcsbank.ru
 domain:tele2.ru
@@ -336,7 +326,6 @@ domain:tinkoff.digital
 domain:tinkoff.finance
 domain:tinkoff.flights
 domain:tinkoff.global
-domain:tinkoff.homes
 domain:tinkoff.io
 domain:tinkoff.legal
 domain:tinkoff.media
@@ -351,7 +340,6 @@ domain:tinkoff.support
 domain:tinkoff.tech
 domain:tinkoff.travel
 domain:tinkoff.tv
-domain:tinkoff.ua
 domain:tinkoff.video
 domain:tinkoffbank.ru
 domain:tinkoffbroker.ru
@@ -380,14 +368,9 @@ domain:vk.com
 domain:vk.dev
 domain:vk.link
 domain:vk.me
-domain:vk.online
-domain:vk.photo
-domain:vk.press
 domain:vk.ru
 domain:vk.sh
-domain:vk.store
 domain:vk.team
-domain:vkactuality.ru
 domain:vkbt.ru
 domain:vkcdn.net
 domain:vkclips.app
@@ -395,15 +378,12 @@ domain:vkconnect.ru
 domain:vkfaces.com
 domain:vkid.ru
 domain:vklanding.ru
-domain:vkoauth.net
 domain:vkontakte.com
 domain:vkontakte.ru
-domain:vkontaktes.com
 domain:vkplay.live
 domain:vkplay.ru
 domain:vksearch.ru
 domain:vkstatic.com
-domain:vkstatic.net
 domain:vkuser.net
 domain:vkuserphoto.ru
 domain:vkuservideo.net
@@ -417,16 +397,12 @@ domain:vtbcapital.com
 domain:vtbonline.ru
 domain:wb.ru
 domain:wbbasket.ru
-domain:wbcdn.net
 domain:wbext.ru
 domain:wbforever.ru
 domain:wbmedia.ru
 domain:wbmp.ru
 domain:wbnet.ru
 domain:wbplus.ru
-domain:wbrbl.ru
-domain:wbsafe.ru
-domain:wbselfy.ru
 domain:wbsmb.ru
 domain:wbstatic.net
 domain:wbx.ru
@@ -442,7 +418,6 @@ domain:wildberries.az
 domain:wildberries.by
 domain:wildberries.club
 domain:wildberries.com
-domain:wildberries.dev
 domain:wildberries.ge
 domain:wildberries.id
 domain:wildberries.in
@@ -453,7 +428,6 @@ domain:wildberries.md
 domain:wildberries.nl
 domain:wildberries.ru
 domain:wildberries.se
-domain:wildberries.shop
 domain:wildberries.store
 domain:wildberries.tech
 domain:wildberries.uz
@@ -474,7 +448,6 @@ domain:yandex.by
 domain:yandex.ca
 domain:yandex.cloud
 domain:yandex.co.il
-domain:yandex.co.th
 domain:yandex.co.uk
 domain:yandex.com
 domain:yandex.com.br
@@ -486,7 +459,6 @@ domain:yandex.eu
 domain:yandex.fi
 domain:yandex.fr
 domain:yandex.gr
-domain:yandex.hr
 domain:yandex.hu
 domain:yandex.id
 domain:yandex.in
@@ -516,13 +488,10 @@ domain:yandex.ua
 domain:yandex.uz
 domain:yandex.vn
 domain:yandexadexchange.net
-domain:yandexcdn.net
 domain:yandexcloud.net
 domain:yandexcom.net
-domain:yandexdisk.com
 domain:yandexmarket.ru
 domain:yandexmetrica.com
-domain:yandextranslate.com
 domain:yandexwebcache.net
 domain:yandexwebcache.org
 domain:yastat.net

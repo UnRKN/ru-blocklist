@@ -159,9 +159,7 @@ onetarget.ru
 otclick-adv.ru
 otkritie.ru
 oz.by
-ozon-api.com
 ozon.by
-ozon.cloud
 ozon.com
 ozon.de
 ozon.dev
@@ -183,7 +181,6 @@ ozonru.com
 ozonru.eu
 ozonsport.ru
 ozonstatus.ru
-ozontech.io
 perekrestok.ru
 pfr.gov.ru
 pochta-bank.ru
@@ -220,7 +217,6 @@ salutejazz.ru
 samokat.ru
 samokat.tech
 sbbol.ru
-sber.auto
 sber.online
 sber.pro
 sber.ru
@@ -377,7 +373,6 @@ yandex.uz
 yandexadexchange.net
 yandexcloud.net
 yandexcom.net
-yandexdisk.com
 yandexmetrica.com
 yandexwebcache.net
 yandexwebcache.org

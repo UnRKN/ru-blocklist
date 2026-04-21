@@ -145,7 +145,6 @@ mts.it
 mts.kz
 mts.md
 mts.news
-mts.online
 mts.org
 mts.plus
 mts.pro
@@ -161,7 +160,6 @@ mts.video
 mts.web
 mts.work
 mtsbank.ru
-mtsru.net
 mtstelecom.ru
 mvd.ru
 mvk.com
@@ -186,12 +184,10 @@ onetarget.ru
 otclick-adv.ru
 otkritie.ru
 oz.by
-ozon-api.com
 ozon.ae
 ozon.am
 ozon.az
 ozon.by
-ozon.cloud
 ozon.com
 ozon.de
 ozon.dev
@@ -202,8 +198,6 @@ ozon.kg
 ozon.kz
 ozon.md
 ozon.ru
-ozon.shop
-ozon.store
 ozon.su
 ozon.tech
 ozon.uz
@@ -218,7 +212,6 @@ ozonfinance.ru
 ozonfintech.ru
 ozonglobalevents.com
 ozonlogistics.ru
-ozonmart.ru
 ozonmedina.ru
 ozonru.co.il
 ozonru.com
@@ -226,7 +219,6 @@ ozonru.eu
 ozonshop.ru
 ozonsport.ru
 ozonstatus.ru
-ozontech.io
 perekrestok.ru
 pochta-bank.ru
 pochta.ru
@@ -263,7 +255,6 @@ samokat.ru
 samokat.tech
 sbbol.ru
 sber.ai
-sber.auto
 sber.ch
 sber.f
 sber.group
@@ -322,7 +313,6 @@ tass.ru
 tbank.by
 tbank.kz
 tbank.ru
-tbank.ua
 tbankcloud.ru
 tcsbank.ru
 tele2.ru
@@ -336,7 +326,6 @@ tinkoff.digital
 tinkoff.finance
 tinkoff.flights
 tinkoff.global
-tinkoff.homes
 tinkoff.io
 tinkoff.legal
 tinkoff.media
@@ -351,7 +340,6 @@ tinkoff.support
 tinkoff.tech
 tinkoff.travel
 tinkoff.tv
-tinkoff.ua
 tinkoff.video
 tinkoffbank.ru
 tinkoffbroker.ru
@@ -380,14 +368,9 @@ vk.com
 vk.dev
 vk.link
 vk.me
-vk.online
-vk.photo
-vk.press
 vk.ru
 vk.sh
-vk.store
 vk.team
-vkactuality.ru
 vkbt.ru
 vkcdn.net
 vkclips.app
@@ -395,15 +378,12 @@ vkconnect.ru
 vkfaces.com
 vkid.ru
 vklanding.ru
-vkoauth.net
 vkontakte.com
 vkontakte.ru
-vkontaktes.com
 vkplay.live
 vkplay.ru
 vksearch.ru
 vkstatic.com
-vkstatic.net
 vkuser.net
 vkuserphoto.ru
 vkuservideo.net
@@ -417,16 +397,12 @@ vtbcapital.com
 vtbonline.ru
 wb.ru
 wbbasket.ru
-wbcdn.net
 wbext.ru
 wbforever.ru
 wbmedia.ru
 wbmp.ru
 wbnet.ru
 wbplus.ru
-wbrbl.ru
-wbsafe.ru
-wbselfy.ru
 wbsmb.ru
 wbstatic.net
 wbx.ru
@@ -442,7 +418,6 @@ wildberries.az
 wildberries.by
 wildberries.club
 wildberries.com
-wildberries.dev
 wildberries.ge
 wildberries.id
 wildberries.in
@@ -453,7 +428,6 @@ wildberries.md
 wildberries.nl
 wildberries.ru
 wildberries.se
-wildberries.shop
 wildberries.store
 wildberries.tech
 wildberries.uz
@@ -474,7 +448,6 @@ yandex.by
 yandex.ca
 yandex.cloud
 yandex.co.il
-yandex.co.th
 yandex.co.uk
 yandex.com
 yandex.com.br
@@ -486,7 +459,6 @@ yandex.eu
 yandex.fi
 yandex.fr
 yandex.gr
-yandex.hr
 yandex.hu
 yandex.id
 yandex.in
@@ -516,13 +488,10 @@ yandex.ua
 yandex.uz
 yandex.vn
 yandexadexchange.net
-yandexcdn.net
 yandexcloud.net
 yandexcom.net
-yandexdisk.com
 yandexmarket.ru
 yandexmetrica.com
-yandextranslate.com
 yandexwebcache.net
 yandexwebcache.org
 yastat.net

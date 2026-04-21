@@ -159,9 +159,7 @@ domain:onetarget.ru
 domain:otclick-adv.ru
 domain:otkritie.ru
 domain:oz.by
-domain:ozon-api.com
 domain:ozon.by
-domain:ozon.cloud
 domain:ozon.com
 domain:ozon.de
 domain:ozon.dev
@@ -183,7 +181,6 @@ domain:ozonru.com
 domain:ozonru.eu
 domain:ozonsport.ru
 domain:ozonstatus.ru
-domain:ozontech.io
 domain:perekrestok.ru
 domain:pfr.gov.ru
 domain:pochta-bank.ru
@@ -220,7 +217,6 @@ domain:salutejazz.ru
 domain:samokat.ru
 domain:samokat.tech
 domain:sbbol.ru
-domain:sber.auto
 domain:sber.online
 domain:sber.pro
 domain:sber.ru
@@ -377,7 +373,6 @@ domain:yandex.uz
 domain:yandexadexchange.net
 domain:yandexcloud.net
 domain:yandexcom.net
-domain:yandexdisk.com
 domain:yandexmetrica.com
 domain:yandexwebcache.net
 domain:yandexwebcache.org
