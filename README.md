@@ -94,5 +94,5 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blo
 
 
 <div align="center">
-created by UnRKN, Grok & Claude with ❤️
+created by UnRKN, Grok, Claude & Codex with ❤️
 <div>
