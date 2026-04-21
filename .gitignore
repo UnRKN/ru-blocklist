@@ -1,16 +1,1 @@
 ignore/
-
-# Domain validation output
-ignore/invalid-domains.txt
-ignore/validation-report.json
-
-# Binary geosite files (.dat files are generated from .txt sources)
-*.dat
-
-# Logs
-*.log
-
-# Cache files
-*.pyc
-__pycache__/
-.pytest_cache/

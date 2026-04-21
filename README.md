@@ -1,4 +1,4 @@
-# 🚫 Список РУ-доменов для блокировки в VPN
+# 🚫 Список РУ-доменов для блокировки и роутинга в VPN
 
 <div align="center">
 
@@ -13,7 +13,9 @@
 
 ## 🚀 Быстрый старт
 
-### Скачивание файлов
+### Вы можете просто скопировать всё содержимое из файлов .txt и вставить в Ваш роутинг / конфиг XRAY, а можете использовать файлы .dat
+
+### Использование файлов .dat :// Скачивание
 
 #### Рекомендуемый способ: Использование .dat файлов
 
@@ -25,7 +27,7 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blo
 wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-extended-domain.dat
 ```
 
-### ⚙️ Пример использования
+### ⚙️ Пример использования (в конфиге XRAY)
 
 #### Пример 1:
 
@@ -84,17 +86,19 @@ wget https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blo
 
 | Файл | Размер | Доменов |
 |------|--------|--------|
-| **ru-blocklist-domain.dat** | 5.8 KB | 340 |
-| **ru-blocklist.dat** | 5.8 KB | 340 |
+| **ru-blocklist-domain.dat** | 5.7 KB | 339 |
+| **ru-blocklist-domain.txt** | 6.0 KB | 339 |
+| **ru-blocklist.dat** | 5.7 KB | 339 |
+| **ru-blocklist.txt** | 3.7 KB | 339 |
 
 #### Расширенный список (с региональными доменами)
 
 | Файл | Размер | Доменов |
 |------|--------|--------|
-| **ru-blocklist-extended-domain.dat** | 7.8 KB | 460 |
-| **ru-blocklist-ext.dat** | 7.8 KB | 460 |
-
-
+| **ru-blocklist-extended-domain.dat** | 7.6 KB | 460 |
+| **ru-blocklist-extended-domain.txt** | 8.1 KB | 460 |
+| **ru-blocklist-ext.dat** | 7.6 KB | 460 |
+| **ru-blocklist-ext.txt** | 4.9 KB | 460 |
 
 ## 📊 Статистика по компаниям
 
