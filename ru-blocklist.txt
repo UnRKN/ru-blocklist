@@ -21,6 +21,7 @@ admetrica.ru
 adriver.ru
 afisha.ru
 agent.ru
+aoglonass.ru
 alfabank.com
 alfabank.ru
 aliexpress.ru
@@ -33,6 +34,7 @@ avito.st
 avitocargo.ru
 avitopro.ru
 avitorealty.ru
+belkacar.ru
 beeline.ru
 berizaryad.ru
 betboom.ru
@@ -48,10 +50,14 @@ citydrive.ru
 clck.ru
 cloud.ru
 cxhub.ru
+delimobil.ru
 deliveryclub.ru
 digital.gov.ru
+dostavista.ru
 dixy.ru
 dns-shop.ru
+dodopizza.com
+dodostatic.net
 dodopizza.ru
 domclick.ru
 domrf.ru
@@ -59,6 +65,7 @@ drom.ru
 drweb.com
 drweb.ru
 dzen.ru
+dv.team
 edadeal.ru
 elama.ru
 eldorado.ru
@@ -73,6 +80,7 @@ gazeta.ru
 gazprom-neft.ru
 gazprombank.ru
 gb.ru
+gpb.ru
 globaloet.ru
 gnezdo.ru
 gosniias.ru
@@ -80,8 +88,11 @@ gosuslugi.org
 gosuslugi.ru
 gov.ru
 government.ru
+hbrd.io
 hh.ru
 hrtek.ru
+hybrid.ru
+inappstory.ru
 icq.com
 icq.im
 icq.net
@@ -99,6 +110,7 @@ kion.ru
 koddobra.ru
 kuper.ru
 lamoda.ru
+lenta.com
 lenta.ru
 life.ru
 litres.ru
@@ -107,6 +119,7 @@ lmcdn.ru
 lukoil.ru
 m.egafon.ru
 magnit.ru
+mamadeti.ru
 mail.ru
 mail.ua
 markirovka.ru
@@ -115,6 +128,7 @@ maxunread.ru
 megafon.ru
 megamarket.kz
 megamarket.ru
+medsi.ru
 mgts.ru
 mintsifry.ru
 mkb.ru
@@ -150,6 +164,7 @@ o-courier.ru
 ocourier.ru
 odnoklassniki.ru
 ok.games
+okmarket.ru
 ok.ru
 okcdn.ru
 okko.tv
@@ -198,15 +213,19 @@ ren.tv
 ria.ru
 riafan.ru
 ridus.ru
+rosatom.ru
 rosbank.ru
 rosneft.ru
 rosselkhozbank.ru
+rostec.ru
 rostik.ru
 rt.ru
 rtbcdn.ru
 rtcloud.ru
 rtk.ru
+rskrf.ru
 russia.tv
+ruwiki.ru
 rustore.ru
 rutube-cdn.ru
 rutube.io
@@ -277,6 +296,7 @@ tinkoffmobile.ru
 turbopages.org
 tutu.ru
 tvzavr.ru
+tildacdn.com
 uchi.ru
 upravel.com
 usedesk.ru
@@ -307,6 +327,7 @@ vkusnoitochka.ru
 vkusvill.ru
 vkvideo.ru
 vtb-leasing.ru
+vtbmobile.ru
 vtb.ru
 vtb24.ru
 vtbcapital.com
@@ -383,4 +404,5 @@ yoomoney.ru
 yota.ru
 youla.ru
 yula.ru
+znanierussia.ru
 zvuk.com

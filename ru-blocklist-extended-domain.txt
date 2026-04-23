@@ -21,6 +21,7 @@ domain:admetrica.ru
 domain:adriver.ru
 domain:afisha.ru
 domain:agent.ru
+domain:aoglonass.ru
 domain:alfabank.com
 domain:alfabank.ru
 domain:aliexpress.ru
@@ -33,6 +34,7 @@ domain:avito.st
 domain:avitocargo.ru
 domain:avitopro.ru
 domain:avitorealty.ru
+domain:belkacar.ru
 domain:beeline.ru
 domain:berizaryad.ru
 domain:betboom.ru
@@ -53,8 +55,12 @@ domain:com.ge
 domain:com.ru
 domain:com.tr
 domain:cxhub.ru
+domain:delimobil.ru
 domain:deliveryclub.ru
+domain:dostavista.ru
 domain:dixy.ru
+domain:dodopizza.com
+domain:dodostatic.net
 domain:dns-shop.ru
 domain:dodopizza.ru
 domain:domclick.ru
@@ -63,6 +69,7 @@ domain:drom.ru
 domain:drweb.com
 domain:drweb.ru
 domain:dzen.ru
+domain:dv.team
 domain:edadeal.ru
 domain:egafon.ru
 domain:elama.ru
@@ -77,6 +84,7 @@ domain:gazeta.ru
 domain:gazprom-neft.ru
 domain:gazprombank.ru
 domain:gb.ru
+domain:gpb.ru
 domain:globaloet.ru
 domain:gnezdo.ru
 domain:gosniias.ru
@@ -84,8 +92,11 @@ domain:gosuslugi.org
 domain:gosuslugi.ru
 domain:gov.ru
 domain:government.ru
+domain:hbrd.io
 domain:hh.ru
 domain:hrtek.ru
+domain:hybrid.ru
+domain:inappstory.ru
 domain:icq.com
 domain:icq.im
 domain:icq.net
@@ -104,6 +115,7 @@ domain:kion.ru
 domain:koddobra.ru
 domain:kuper.ru
 domain:lamoda.ru
+domain:lenta.com
 domain:lenta.ru
 domain:life.ru
 domain:litres.ru
@@ -111,6 +123,7 @@ domain:lm.ru
 domain:lmcdn.ru
 domain:lukoil.ru
 domain:magnit.ru
+domain:mamadeti.ru
 domain:mail.ru
 domain:mail.ua
 domain:markirovka.ru
@@ -119,6 +132,7 @@ domain:maxunread.ru
 domain:megafon.ru
 domain:megamarket.kz
 domain:megamarket.ru
+domain:medsi.ru
 domain:mgts.ru
 domain:mintsifry.ru
 domain:mkb.ru
@@ -175,6 +189,7 @@ domain:o-courier.ru
 domain:ocourier.ru
 domain:odnoklassniki.ru
 domain:ok.games
+domain:okmarket.ru
 domain:ok.ru
 domain:okcdn.ru
 domain:okko.tv
@@ -235,15 +250,19 @@ domain:ren.tv
 domain:ria.ru
 domain:riafan.ru
 domain:ridus.ru
+domain:rosatom.ru
 domain:rosbank.ru
 domain:rosneft.ru
 domain:rosselkhozbank.ru
+domain:rostec.ru
 domain:rostik.ru
 domain:rt.ru
 domain:rtbcdn.ru
 domain:rtcloud.ru
 domain:rtk.ru
+domain:rskrf.ru
 domain:russia.tv
+domain:ruwiki.ru
 domain:rustore.ru
 domain:rutube-cdn.ru
 domain:rutube.io
@@ -349,6 +368,7 @@ domain:tinkoffinsurance.ru
 domain:tinkoffjournal.ru
 domain:tinkoffmobile.ru
 domain:turbopages.org
+domain:tildacdn.com
 domain:tutu.ru
 domain:tvzavr.ru
 domain:uchi.ru
@@ -391,6 +411,7 @@ domain:vkusnoitochka.ru
 domain:vkusvill.ru
 domain:vkvideo.ru
 domain:vtb-leasing.ru
+domain:vtbmobile.ru
 domain:vtb.ru
 domain:vtb24.ru
 domain:vtbcapital.com
@@ -501,4 +522,5 @@ domain:yoomoney.ru
 domain:yota.ru
 domain:youla.ru
 domain:yula.ru
+domain:znanierussia.ru
 domain:zvuk.com
