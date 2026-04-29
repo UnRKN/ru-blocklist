@@ -12,6 +12,7 @@ domain:2gis.qa
 domain:2gis.ru
 domain:2gis.sa
 domain:2gis.uz
+domain:1c.ru
 domain:2ip.ru
 domain:360tv.ru
 domain:5-tv.ru
@@ -68,6 +69,7 @@ domain:dzen.ru
 domain:dv.team
 domain:edadeal.ru
 domain:elama.ru
+domain:epd-portal.ru
 domain:eldorado.ru
 domain:emias.ru
 domain:expf.ru
@@ -259,6 +261,8 @@ domain:sberzvuk.ru
 domain:sbpay.ru
 domain:sbrf.com
 domain:sbrf.ru
+domain:servicepipe.ru
+domain:servicepipe.tech
 domain:sferum.ru
 domain:sfr.gov.ru
 domain:skillbox.ru

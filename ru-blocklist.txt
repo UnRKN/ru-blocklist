@@ -12,6 +12,7 @@
 2gis.ru
 2gis.sa
 2gis.uz
+1c.ru
 2ip.ru
 360tv.ru
 5-tv.ru
@@ -68,6 +69,7 @@ dzen.ru
 dv.team
 edadeal.ru
 elama.ru
+epd-portal.ru
 eldorado.ru
 emias.ru
 expf.ru
@@ -259,6 +261,8 @@ sberzvuk.ru
 sbpay.ru
 sbrf.com
 sbrf.ru
+servicepipe.ru
+servicepipe.tech
 sferum.ru
 sfr.gov.ru
 skillbox.ru
