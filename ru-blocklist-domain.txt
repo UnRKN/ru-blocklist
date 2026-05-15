@@ -151,6 +151,8 @@ domain:mts.md
 domain:mts.ru
 domain:mts.ua
 domain:mtsbank.ru
+domain:mtsdengi.ru
+domain:mwscdn.ru
 domain:mvd.ru
 domain:mvk.com
 domain:my.com

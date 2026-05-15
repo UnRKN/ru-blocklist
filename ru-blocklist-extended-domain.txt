@@ -176,7 +176,9 @@ domain:mts.video
 domain:mts.web
 domain:mts.work
 domain:mtsbank.ru
+domain:mtsdengi.ru
 domain:mtstelecom.ru
+domain:mwscdn.ru
 domain:mvd.ru
 domain:mvk.com
 domain:my.com

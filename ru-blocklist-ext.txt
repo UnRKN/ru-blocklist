@@ -176,7 +176,9 @@ mts.video
 mts.web
 mts.work
 mtsbank.ru
+mtsdengi.ru
 mtstelecom.ru
+mwscdn.ru
 mvd.ru
 mvk.com
 my.com
