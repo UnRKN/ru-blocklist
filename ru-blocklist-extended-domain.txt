@@ -538,6 +538,7 @@ domain:detmir.ru
 domain:dobro.ru
 domain:dumatv.ru
 domain:evotor.ru
+domain:eopp-portal.ru
 domain:freestylediabetes.ru
 domain:freestylelibre.ru
 domain:glutec.ru
