@@ -176,6 +176,7 @@ domain:moi-klass.ru
 domain:more.tv
 domain:mos.city
 domain:mos.ru
+domain:mosreg.ru
 domain:mradx.net
 domain:mrgcdn.ru
 domain:mts-bank.ru
