@@ -1,0 +1,33 @@
+{
+  "Name": "UnRKN — RU Direct",
+  "GlobalProxy": "true",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+  "RemoteDNSIP": "1.1.1.1",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://raw.githubusercontent.com/UnRKN/ru-blocklist/main/ru-blocklist-domain.dat",
+  "DnsHosts": {
+    "cloudflare-dns.com": "1.1.1.1"
+  },
+  "DirectSites": [
+    "geosite:RU"
+  ],
+  "DirectIp": [
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "169.254.0.0/16",
+    "224.0.0.0/4",
+    "255.255.255.255"
+  ],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "LastUpdated": "1777334400"
+}
